@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     rollupOptions:   
  {
-      input: './src/main.jsx',   
+      input: '../Passgenerater/src/main.jsx',   
  // Ensure this path is correct
     },
   },

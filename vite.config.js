@@ -3,13 +3,12 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  eslint:{
-    ignoreDuringBuilds:true,
-  },
-  plugins: [react()],
+ plugins: [react()],
   build: {
-    rollupOptions: {
-      input: './src/main.jsx', // Specify your entry point here
-    }
-  }
+    rollupOptions:   
+ {
+      input: './src/main.jsx',   
+ // Ensure this path is correct
+    },
+  },
 })
